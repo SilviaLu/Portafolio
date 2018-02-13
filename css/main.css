@@ -1,12 +1,203 @@
-main {
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* reutilizables */
+
+
+/* helpers */
+
+header {
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    /* outline: 1px solid red; */
+    padding-left: 50px;
+
+}
+
+.up {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    /* outline: 1px solid greenyellow; */
+}
+
+.in {
+    /* outline: 1px solid red; */
+    list-style: none;
+    padding: 0px 20px 0px 900px;
+}
+
+.in li {
+    padding: 20px;
+}
+
+.in li,
+.up li {
+    display: inline-block;
+}
+
+
+/* nav */
+
+nav {
+    /* outline: 2px solid violet; */
+    position: fixed;
+}
+
+li a {
+    color: rgb(17, 96, 160);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+
+/* main */
+
+.center {
+    padding-top: 300px;
+}
+
+.name,
+.sub-name {
     font-family: 'Mukta Mahee', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'PT Serif', serif;
+    text-align: center;
+    color: rgb(248, 248, 248);
 }
-.title{
-  font-family: 'Amaranth', sans-serif;
-font-family: 'Mukta Mahee', sans-serif;
-font-family: 'PT Serif', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Concert One', cursive;
+
+.name {
+    font-size: 25px;
+    letter-spacing: 3px;
 }
+
+.sub-name {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+main {
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+
+/* aside */
+
+
+/* aside {
+    background-image: url(../assets/images/flor_agua.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    right: 0;
+} */
+
+
+/* section  about*/
+
+.about{
+  /* background-image: url(../assets/images/img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* opacity: 0.5; */
+  background-color: black;
+  height: 100vh;
+  /* display: inline-block; */
+ 
+
+}
+.cv,
+.hi,
+.text-hi{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(171, 138, 203);
+}
+
+.hi {
+    font-size: 60px;
+    color:white;
+}
+.line{
+    color: rgb(226, 220, 209);
+    width: 95%;
+    height: 10px;
+    outline: 1px solid red;
+    margin: 0;
+}
+.text-hi{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 20px;
+
+}
+.text-next{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: white;
+    text-justify: auto;
+    /* margin: 0; */
+}
+
+.sub-list {
+    text-decoration: none;
+    display: inline;
+}
+
+li a {
+    list-style: none;
+}
+
+.cv {
+    list-style: none;
+    text-decoration: none;
+}
+
+.text-photo {
+    /* outline: 1px solid red; */
+    padding-left: 100px;
+    margin-top: 110px; 
+    width: 60%;
+    display: inline-block;
+}
+.photo {
+    
+    height: 400px;
+    border-radius: 10%;
+}
+.photo-rigth{
+    /* margin: 0; */
+    padding-top: 130px;
+    padding-left: 35px;
+    /* outline: 1px solid white; */
+    width: 35%;
+}
+.frase {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 550px;
+    padding-left: 100px;
+    color: white;
+}
+.frase1{
+    font-size: 30px;
+}
+
+
