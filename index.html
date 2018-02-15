@@ -13,23 +13,22 @@
 </head>
 
 <body>
-  <header class="container loader">
-    <nav>
-      <ul class="up">
-        <li class="text nav">
-          <a href="">
-            <img class="logo" src="" alt="Mi logo">
-          </a>
+  <header class="container">
+    <!-- <div class=" box-logo">
+      <p class="logo">SP</p> -->
+    <!-- <img class="logo" src="" alt="Mi logo"> -->
+    <!-- </div> -->
+
+    <nav class="menu">
+      <ul class="in">
+        <li>
+          <a href="#">About me</a>
         </li>
         <li>
-          <ul class="in">
-            <li class="text nav intro">
-              <a href="#">Acerca de mi</a>
-            </li>
-            <li class="text nav intro">
-              <a href="#">Trabajos</a>
-            </li>
-          </ul>
+          <a href="#">Abilities</a>
+        </li>
+        <li>
+          <a href="#">Works</a>
         </li>
       </ul>
     </nav>
@@ -40,39 +39,104 @@
           <h1 class="text title">SILVIA PUENTE DE LA VEGA V.</h1>
         </div>
         <div class="sub-name">
-          <h3>Developers & Ux-Design</h3>
+          <h3>Ux-Design</h3>
         </div>
       </div>
     </main>
   </header>
   <!-- fin de animacion -->
 
-  <section class="about ">
-    <div class="col-xs-12 col-md-7 col-lg-7 text-photo">
-      <h2 class="hi">Hola</h2>
-      <div class="line"></div>
-      <p class="text-hi">Mi nombre es Silvia, soy una UX Developer jr. </p>
-      <p class="text-next">Egresada de la 7° promoción de Laboratoria,
-        <br> mi primera carrera es veterinaria, la estudie en UNMSM, tengo alto nivel de sensibilidad social, iniciativa, dedicación
-        y habilidad para trabajar en equipo. soy una persona versátil, ágil, consecuente, responsable y dinámica; mi pasión
-        por el código y la tecnología me ha llevado a conocer nuevo horizontes y plantearme nuevos retos. Interesada en trabajar
-        en proyecto geniales, ponerse en contacto.</p>
+  <!-- sobre mi -->
+  <section class=" container about">
+    <div class="title">
+      <h3>About me</h3>
     </div>
-    <div class="col-xs-12 col-md-5 col-lg-5 photo-rigth">
-      <img class="photo" src="assets/images/me.png" alt="">
+    <!-- lo de arriba ya no se toca, solo le falta responsive -->
+    <div class="about-me">
+      <div class="colum-one">
+        <div class="skill">
+          <h2>Skill</h2>
+          <ul>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>Java Script</li>
+            <li>Jquery</li>
+            <li>Boostrap</li>
+            <li>Materialize</li>
+            <li>npm (package manager)</li>
+          </ul>
+        </div>
+        <div class="tools">
+          <h2>Herramientas</h2>
+          <ul>
+            <li>Brackets</li>
+            <li>Visual Code</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Marvel</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="colum-two">
+        <div class="text-me">
+          <div class="text-one">
+            <p class="text-next">
+              <h2>Hola</h2>Soy parte de la 7° promoción de Laboratoria, con especialidad en Ux-design, mi primera carrera fue
+              Veterinaria, la estudie en UNMSM, tengo alto nivel de sensibilidad social, iniciativa, dedicación y habilidad
+              para trabajar en equipo.
+              <br> Soy una persona versátil, ágil, perseverante, autodidacta, apasionada, consecuente, responsable y dinámica;
+              mi pasión por el código y la tecnología me ha llevado a conocer nuevo horizontes y plantearme nuevos retos.
+              Interesada en trabajar en proyecto geniales, ponerse en contacto.</p>
+          </div>
+          <div class="interests">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nostrum distinctio mollitia quas, quidem
+              temporibus magnam. Mollitia blanditiis, vel repellendus nemo eaque ipsam voluptatem animi beatae alias expedita
+              maiores rerum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colum-three">
+        <div class="photo">
+          <img src="assets/images/me.png" alt="">
+        </div>
+        <div class="personalidad">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        
+      </div>
     </div>
-    <div class="frase">
-      <p class="frase1">Mi frase es:</p>
-      <p>No eres lo que logras, eres lo que superas.</p>
-      <p>Resilencia</p>
+    <div class="phrase">
+        <p class="phrase-first">Mi frase es:</p>
+        <p>No eres lo que logras, eres lo que superas.</p>
+        <p>Resilencia</p>
+      </div>
+  </section>
+
+  <!-- mis intereses -->
+  <section>
+    <div class="interes">
+      <p>Me gusta realizar</p>
+    </div>
+    <div>
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
     </div>
   </section>
 
-  <!-- <section class="container col-xs-6 col-md-6 col-lg-5">  
-    <div >
-      <img class="photo" src="assets/images/me.png" alt="">
-    </div>
-  </section> -->
+
+
+
 
   <section>
     <p>
@@ -97,7 +161,8 @@
     </ul>
   </section>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="js/app.js"></script>
 
 </body>
