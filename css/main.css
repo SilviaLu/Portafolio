@@ -10,10 +10,10 @@ body {
 /* helpers */
 
 header {
-    background-image: url(../assets/images/img-2.jpg);
+    background-image: url(../assets/images/bg-1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .container {
@@ -201,10 +201,16 @@ main {
 
 
 /* seccion interests */
+.letras{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 2px;
+    color:black;
+}
 
 .like {
-    height: 70vh;
-    background-color: rgb(179, 151, 204);
+    height: 86vh;
+    background-color: rgb(212, 203, 220);
 }
 
 .like-me h3 {
@@ -237,14 +243,97 @@ main {
 
 .box-figure {
     overflow: hidden;
+    column-count: 4;
 }
 
 .figure-img {
-    border: 4px solid rgb(109, 86, 136);
-    padding-top: 0;
-    margin: 5px;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
+    margin: 50px 20px 0px 20px;
     float: left;
 }
+
+.figure-img img {
+    border: 4px solid rgb(109, 86, 136);
+    width: 280px;
+    height: 280px;
+}
+
+figcaption {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* seccion work */
+
+.work {
+    background-color: rgba(87, 33, 86, 0.268);
+    height: 160vh;
+}
+
+.work-me h3 {
+    padding-top: 35px;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(77, 59, 77, 0.535);
+}
+
+.work-me h3::before {
+    content: "";
+    background: rgb(152, 140, 140);
+    margin-bottom: 5px;
+    margin-right: 7px;
+    width: 500px;
+    height: 3px;
+    display: inline-block;
+}
+
+.work-me h3::after {
+    content: "";
+    background: rgb(152, 140, 140);
+    margin-bottom: 5px;
+    margin-left: 7px;
+    width: 500px;
+    height: 3px;
+    display: inline-block;
+}
+.box-img-work{
+    display: inline-block;
+}
+.text-work {
+    outline: 1px solid red;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    /* overflow: hidden; */
+}
+
+.img-work {
+    /* margin: 40px 0px 0px 800px; */
+    width: 360px;
+    height: 300px;
+    display: inline-block;
+    outline: 1px solid red;
+}
+.box-work div{
+    /* display: inline-block; */
+    margin: 50px 0px 0px 150px;
+}
+.work-code{
+    text-align: center;
+    border: 2px dashed black;
+    width: 50%;
+    /* display: inline-block; */
+       
+}
+.work-code a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0;
+    /* float: left; */
+   
+    
+   }
