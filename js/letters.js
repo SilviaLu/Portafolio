@@ -9,10 +9,6 @@ function runTyping() {
 		  "Me encanta leer",
 		  "Me encantan los felinos"
 
-		  // "I CODE COOL WEBSITES",
-		  // "I LIKE READING BOOKS",
-		  // "I LOVE DESIGN",
-		  // "I ENJOY LEARNING"
 		];
 		var sentence = 0;
 		var currentChar = 0;
