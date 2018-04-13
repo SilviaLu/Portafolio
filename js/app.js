@@ -44,10 +44,10 @@ $('.demo-yaku').click(function() {
   window.open('https://marvelapp.com/14bagcc6');
 });
 $('.github-car').click(function() {
-  window.open('https://github.com/SilviaLu/banco-100--digital');
+  window.open('https://github.com/SilviaLu/lab-car-boilerplate');
 });
 
 $('.demo-car').click(function() {
-  window.open('https://marvelapp.com/14bagcc6');
+  window.open('https://silvialu.github.io/lab-car-boilerplate/');
 });
 });
