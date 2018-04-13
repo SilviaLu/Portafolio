@@ -72,7 +72,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #4c07acc2;
 }
 
 .list-social-icons a .fa-lg {
@@ -81,10 +81,15 @@ h2 {
 
 .list-icons {
   font-size: 3rem;
+  text-align: center;
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #4c07acc2;
+}
+
+.list-inline-item{
+  font-size: 4.2rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
