@@ -66,13 +66,18 @@ p{
 }
 .subheading-1 {
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
+  text-align: center;
   /* padding-left: 15%; */
+}
+.star{
+  margin-bottom: 1rem !important; 
 }
 .list-social-icons a {
   color: #495057;
+  
 }
 
 .list-social-icons a:hover {
@@ -92,10 +97,14 @@ p{
   color: #4c07acc2;
 }
 
-.list-inline-item{
-  font-size: 4.2rem;
+.list-inline-item a {
+  font-size: 5rem;
+  text-align: center;
 }
-
+.fa-ul{
+  color: #4c07acc2;
+  
+}
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
@@ -143,7 +152,7 @@ p{
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
+  /* padding-top: 5rem !important; */
   padding-bottom: 5rem !important;
 }
 
